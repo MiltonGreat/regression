@@ -40,7 +40,8 @@ The dataset `canada_rent.csv` contains rental prices and associated features for
 
 # 3. Which regression model provides the best balance between prediction accuracy and interpretability?
 
-- Since my primary goal is to use a flexible model that can capture interactions and no-linear relationship. I had noticed problems with noise in the data set, so I chose Random Forest model over the simpler Lasso model. 
+- I used Random Forest since my primary goal is to use a flexible model that can capture non-linear relationship.
+- I had noticed problems with noise in the data set, so I chose Random Forest model over the simpler Lasso model. 
 - In the end, the project compared the performance of Linear, Ridge, and Random Forest Regression.
 
 # 4. What steps were taken to ensure that the model is not overfitting and generalizes well to unseen data?
